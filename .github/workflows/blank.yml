@@ -2,7 +2,6 @@ name: release-onlyoffice
 
 on: 
   workflow_dispatch
-
 env:
   DEBIAN_PACKAGE_SUFFIX: -dream
   TAG_SUFFIX: -dream
