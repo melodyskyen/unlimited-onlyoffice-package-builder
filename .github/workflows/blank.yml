@@ -1,6 +1,7 @@
 name: release-onlyoffice
 
-on: workflow_dispatch
+on: 
+  workflow_dispatch
 
 env:
   DEBIAN_PACKAGE_SUFFIX: -dream
